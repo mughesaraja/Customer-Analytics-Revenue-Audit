@@ -33,7 +33,7 @@ I used a **Linear Regression** model to predict the "Ideal Revenue" for each acc
 I built a **Random Forest Classifier** to assign a "Risk Score" to every customer, identifying which high-value accounts were most likely to cancel based on their engagement patterns.
 
 ### 📊 The "At-Risk" Tracker
-![Churn Dashboard](Retention_Risk_Screenshot.png)
+![Churn Dashboard](Retention_Risk__Dashboard_Screenshot.png)
 
 * **Visual Logic:** Uses a "Traffic Light" system (Red/Yellow/Green) to show churn probability.
 * **Impact:** Allows the Customer Success team to prioritize outreach to the most valuable accounts before they churn.
