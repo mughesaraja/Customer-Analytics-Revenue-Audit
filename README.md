@@ -13,7 +13,7 @@ This project demonstrates a full data lifecycle: extracting data with SQL-style 
 ## The Tech Stack
 * **Python:** Pandas, Scikit-Learn (Random Forest & Linear Regression)
 * **Strategy:** Revenue Operations (RevOps) & Customer Success Analytics
-* **Visualization:** Excel Dashboards with Conditional Formatting
+* **Visualisation:** Excel Dashboards with Conditional Formatting
 
 ---
 
