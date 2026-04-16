@@ -3,7 +3,7 @@ Predictive churn modeling and revenue expansion forecasting using Python, SQL, a
 
 # Customer Health & Revenue Expansion Audit
 
-**Project Overview**
+# **Project Overview**
 
 I developed a dual-layered analytics pipeline to solve two critical B2B SaaS challenges: **Churn Mitigation** (protecting revenue) and **Expansion Forecasting** (growing revenue). 
 
