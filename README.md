@@ -18,6 +18,20 @@ This project demonstrates a full data lifecycle: extracting data with SQL-style 
 
 ---
 
+## Data Cleaning & Preprocessing (The "Colab" Workflow)
+"Raw data is rarely 'analysis-ready.' For this project, I performed a rigorous audit of the dataset in Google Colab to ensure the integrity of the predictive models. 
+Key steps included:
+
+**Handling Missingness:** Used Pandas to identify null values. Applied Mean/Median Imputation for skewed numerical distributions and created 'Unknown' categories for categorical features to preserve sample size.
+
+**Outlier Detection:** Used the Interquartile Range (IQR) method to identify and address extreme values in [Revenue/Order Volume] that would have otherwise biased the Linear Regression coefficients.
+
+**Feature Engineering:** Transformed raw 'Order Timestamps' into 'Seasonality' features (Day of week, Month) to allow the Facebook Prophet model to capture weekend surges.
+
+**Data Normalisation:** Applied Scaling/Encoding to categorical variables (like industry or plan_tier) to make them readable for the Scikit-Learn models.
+
+---
+
 ## Phase 1: Revenue Expansion (Upsell Opportunities)
 I used a **Linear Regression** model to predict the "Ideal Revenue" for each account based on industry benchmarks and usage intensity. By comparing this to their current spend, I identified the "Upsell Gap."
 
